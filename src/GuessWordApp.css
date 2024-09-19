@@ -142,13 +142,13 @@ button:hover {
     transform: translateY(-4px);
 }
 
-@media(max-width: 425px) {
+@media(max-width: 433px) {
     main {
         padding: 50px;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 412px) {
     main {
         padding: 50px 24px;
         gap: 50px;
@@ -160,9 +160,13 @@ button:hover {
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 333px) {
     main {
         padding: 58px 22px;
+    }
+
+    .container-tries {
+        gap: 6px;
     }
 
     .container-input {
