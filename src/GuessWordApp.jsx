@@ -22,11 +22,11 @@ export const GuessWordApp = () => {
 
     const handleInputChange = (e) => {
         const { value } = e.target;
-        setInputValue(value);
+        setInputValue(value.toLowerCase());
         if (value !== '') {
             setAnswerArray((prevArray) => {
                 const newArray = [...prevArray];
-                newArray[0] = value;
+                newArray[0] = value.toLowerCase();
                 return newArray;
             });
         }
@@ -48,11 +48,11 @@ export const GuessWordApp = () => {
     }, [answerArray[0]])
     const handleInputChange2 = (e) => {
         const { value } = e.target;
-        setInputValue2(value);
+        setInputValue2(value.toLowerCase());
         if (value !== '') {
             setAnswerArray((prevArray) => {
                 const newArray = [...prevArray];
-                newArray[1] = value;
+                newArray[1] = value.toLowerCase();
                 return newArray;
             });
         }
@@ -74,11 +74,11 @@ export const GuessWordApp = () => {
     }, [answerArray[1]])
     const handleInputChange3 = (e) => {
         const { value } = e.target;
-        setInputValue3(value);
+        setInputValue3(value.toLowerCase());
         if (value !== '') {
             setAnswerArray((prevArray) => {
                 const newArray = [...prevArray];
-                newArray[2] = value;
+                newArray[2] = value.toLowerCase();
                 return newArray;
             });
         }
@@ -100,11 +100,11 @@ export const GuessWordApp = () => {
     }, [answerArray[2]])
     const handleInputChange4 = (e) => {
         const { value } = e.target;
-        setInputValue4(value);
+        setInputValue4(value.toLowerCase());
         if (value !== '') {
             setAnswerArray((prevArray) => {
                 const newArray = [...prevArray];
-                newArray[3] = value;
+                newArray[3] = value.toLowerCase();
                 return newArray;
             });
         }
@@ -126,11 +126,11 @@ export const GuessWordApp = () => {
     }, [answerArray[3]])
     const handleInputChange5 = (e) => {
         const { value } = e.target;
-        setInputValue5(value);
+        setInputValue5(value.toLowerCase());
         if (value !== '') {
             setAnswerArray((prevArray) => {
                 const newArray = [...prevArray];
-                newArray[4] = value;
+                newArray[4] = value.toLowerCase();
                 return newArray;
             });
         }
@@ -152,11 +152,11 @@ export const GuessWordApp = () => {
     }, [answerArray[4]])
     const handleInputChange6 = (e) => {
         const { value } = e.target;
-        setInputValue6(value);
+        setInputValue6(value.toLowerCase());
         if (value !== '') {
             setAnswerArray((prevArray) => {
                 const newArray = [...prevArray];
-                newArray[5] = value;
+                newArray[5] = value.toLowerCase();
                 return newArray;
             });
         }
